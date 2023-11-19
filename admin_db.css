@@ -25,10 +25,14 @@
 
 .panel {
 
+  display: flexbox;
   grid-area: nav;
   border-width: 3px;
   border-style: solid;
   border-color: greenyellow;
+  justify-content: center;
+  align-items: center;
+  background-color: #448EE4
 
 }
 
@@ -48,4 +52,167 @@
   border-style: solid;
   border-color: black;
 
+}
+
+.dash-icon {
+
+  display: flex;
+  flex-direction: row;  
+  height: 8%;
+  width: 100%;
+  /*
+  border-width: 3px;
+  border-style: solid;
+  border-color: lightgreen;
+  */
+  justify-content: center;
+  align-items: center;
+  column-gap: 2px;
+  
+}
+
+.icon {
+
+  height: 100%;
+  width: 20%;
+  /*
+  border-width: 3px;
+  border-style: dotted;
+  border-color: lightgreen;
+  */
+  justify-content: center;
+
+}
+
+.dash {
+
+  height: 80%;
+  width: 80%;
+
+}
+
+.dash p {
+
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+}
+
+.empty_div {
+
+  height: 3%;
+  width: 100%;
+  /*
+  border-width: 3px;
+  border-style: solid;
+  border-color: red;
+  */
+
+}
+
+.home-cont {
+
+  display: flex;
+  flex-direction: row;
+  height: 7%;
+  width: 100%;
+  /*
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgreen;
+  */
+  justify-content: start;
+  align-items: center;
+  column-gap: 10px;
+
+}
+
+.home_icon {
+
+  height: 60%;
+  width: 12%;
+  /*
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightpurple;
+  */
+  margin-left: 5px;
+
+}
+
+.home_word {
+
+  height: 50%;
+  width: 29%;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  /*
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgreen;
+  */
+
+}
+
+p {
+
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+
+}
+
+.profile-cont {
+
+  display: flex;
+  flex-direction: row;
+  height: 7%;
+  width: 100%;
+  /*
+  border-width: 1px;
+  border-style: dotted;
+  border-color: lightpurple;
+  */
+  justify-content: start;
+  align-items: center;
+  column-gap: 10px;
+
+}
+
+.profile_icon {
+
+  height: 58%;
+  width: 12%;
+  /*
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightpurple;
+  */
+  margin-left: 5px;
+
+
+}
+
+.profile_word {
+
+  height: 50%;
+  width: 29%;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  /*
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgreen;
+  */
 }
