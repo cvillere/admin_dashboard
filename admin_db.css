@@ -486,67 +486,237 @@ p {
 
 .super_cool_project {
 
+  display: flex;
+  flex-direction: column;
+  /*justify-items: start;*/
+  /*align-content: start;*/
   grid-row: 2 / 3;
   margin-left: 12px;
-  border-width: 3px;
+  /*border-width: 3px;*/
+  height: 100%;
   width: 200px;
-  border-style: dotted;
-  border-color: black;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  /*grid-template-rows: 3.7fr 1.3fr;*/
 
 }
+
+.words_p {
+
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-content: start;
+  height: 60%;
+  width: 100%;
+
+
+}
+
+.spc_bold {
+
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 9px;
+  margin-top: 12px;
+
+}
+
+.sed_norm {
+
+  font-size: 8px;
+  font-weight: normal;
+  margin-left: 9px;
+  margin-right: 25px;
+
+}
+
+.svg_icons {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  height: 40%;
+  width: 98%;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  /*border-width: 2px;*/
+
+}
+
+.star {
+
+  display: flex;
+  flex-direction: row;
+  width: 13%;
+  height: 100%;
+  justify-content: end;
+  align-items: end;
+
+}
+
+.star img {
+
+  width: 50%;
+  height: 80%;
+  margin-right: 5px;;
+
+}
+
+.eye {
+
+  display: flex;
+  flex-direction: row;
+  width: 13%;
+  height: 100%;
+  justify-content: end;
+  align-items: end;
+
+}
+
+.eye img {
+
+  width: 50%;
+  height: 80%;
+  margin-right: 5px;
+
+}
+
+.link {
+
+  display: flex;
+  flex-direction: row;
+  width: 13%;
+  height: 100%;
+  justify-content: end;
+  align-items: end;
+
+}
+
+.link img {
+
+  width: 50%;
+  height: 80%;
+  margin-right: 5px;
+
+}
+
 
 .impossible_app {
 
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-content: start;
   grid-row: 3 / 4;
   margin-left: 12px;
-  border-width: 3px;
+  /*border-width: 3px;*/
+  height: 100%;
   width: 200px;
-  border-style: dotted;
-  border-color: black;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  grid-template-rows: 3.7fr 1.3fr;
 
 }
 
+.imp_norm {
+
+    font-size: 8px;
+    font-weight: normal;
+    margin-left: 9px;
+    margin-right: 15px;
+  
+}
+
+
 .ad_blocker {
 
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-content: start;
   grid-row: 4 / 5;
   margin-left: 12px;
-  border-width: 3px;
+  /*border-width: 3px;*/
+  height: 100%;
   width: 200px;
-  border-style: dotted;
-  border-color: black;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  grid-template-rows: 3.7fr 1.3fr;
 
 }
 
 .less_cool_project {
 
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-content: start;
   grid-row: 2 / 3;
-  margin-left: 7px;
-  border-width: 3px;
+  margin-left: 12px;
+  /*border-width: 3px;*/
+  height: 100%;
   width: 200px;
-  border-style: dotted;
-  border-color: black;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  grid-template-rows: 3.7fr 1.3fr;
+
+}
+
+.null_norm {
+
+  font-size: 8px;
+  font-weight: normal;
+  margin-left: 9px;
+  margin-right: 5px;
+
 
 }
 
 .easy_peasy_app {
 
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-content: start;
   grid-row: 3 / 4;
-  margin-left: 7px;
-  border-width: 3px;
+  margin-left: 12px;
+  /*border-width: 3px;*/
+  height: 100%;
   width: 200px;
-  border-style: dotted;
-  border-color: black;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  grid-template-rows: 3.7fr 1.3fr;
 
 }
 
 .money_maker {
 
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-content: start;
   grid-row: 4 / 5;
-  margin-left: 7px;
-  border-width: 3px;
+  margin-left: 12px;
+  /*border-width: 3px;*/
+  height: 100%;
   width: 200px;
-  border-style: dotted;
-  border-color: black;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  grid-template-rows: 3.7fr 1.3fr;
 
 }
 
@@ -603,7 +773,7 @@ p {
 .site_m {
 
   margin-top: 4px;
-  font-size: 12px;
+  font-size: 9px;
   font-weight: bold;
   margin-left: 3px;
 
@@ -622,7 +792,14 @@ p {
 
 .vest {
 
-  font-size: 8px;
+  font-size: 7px;
+  margin-left: 3px;
+
+}
+
+.phase {
+
+  font-size: 7px;
   margin-left: 3px;
 
 }
@@ -654,7 +831,7 @@ p {
   /* height: 150px; */
   /*border-style: dotted;*/
   /*border-color: black;*/
-  grid-template-rows: 25px auto;
+  grid-template-rows: 20px auto 20px;
   background-color: lightgrey;
 
 }
