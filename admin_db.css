@@ -449,9 +449,9 @@ p {
   grid-area: projects;
   grid-template-rows: 15px repeat(3, 1fr) 15px;
   grid-template-columns: repeat(2, 1.1fr) .8fr;
-  border-width: 3px;
-  border-style: solid;
-  border-color: black;
+  /*border-width: 3px;*/
+  /*border-style: solid;*/
+  /*border-color: black;*/
   background-color: lightgrey;
   row-gap: 10px;
   column-gap: 12px;
@@ -555,11 +555,11 @@ p {
   display: grid;
   grid-area: announcements;
   /* grid-column: 3 / 4; */
-  border-width: 3px;
+  /*border-width: 3px;*/
   /* width: 100px; */
   /* height: 150px; */
-  border-style: dotted;
-  border-color: black;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
   grid-template-rows: 15px auto;
   background-color: lightgrey;
 
@@ -595,7 +595,7 @@ p {
   /*border-color: white;*/
   border-radius: 7px;
   background-color: white;
-  border-width: 3px;
+  /*border-width: 3px;*/
   grid-template-rows: repeat(3, 1fr);
 
 }
@@ -644,18 +644,85 @@ p {
 
 }
 
-.trend_grid {
+.trendings {
 
   display: grid;
   grid-area: trending;
   /* grid-column: 3 / 4; */
-  border-width: 3px;
+  /*border-width: 3px;*/
   /* width: 100px; */
   /* height: 150px; */
-  border-style: dotted;
-  border-color: black;
-  grid-template-rows: 15px auto;
+  /*border-style: dotted;*/
+  /*border-color: black;*/
+  grid-template-rows: 25px auto;
   background-color: lightgrey;
+
+}
+
+.trending {
+
+  grid-row: 1 / 2;
+  margin-top: 8px;
+  margin-left: 7px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.trending p {
+
+  font-size: 11px;
+  font-weight: bold;
+  color: black;
+
+}
+
+.trend_grid {
+
+  display: grid;
+  grid-row: 2 / 3;
+  margin-top: 5px;
+  border-width: 3px;
+  width: 97%;
+  /* height: 150px; */
+  /*border-style: dotted;*/
+  /*border-color: white;*/
+  border-radius: 7px;
+  background-color: white;
+  border-width: 3px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 45px auto;
+
+}
+
+.pic {
+
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+.picture {
+  
+  margin-top: 4px;
+  height: 23px;
+  width: 40px;
+  border-radius: 8px;
+  margin-left: 5px;
+
+}
+
+.trend_text {
+
+  margin-top: 3px;
+
+}
+
+.trend_text p {
+
+  font-size: 8px;
+  margin-left: 7px;
 
 }
 
